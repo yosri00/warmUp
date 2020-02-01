@@ -28,8 +28,16 @@ function average(arr){
 //average([13,14,13,15,16,17,19,13,16,15])=15.1
 
 // 4
-function ageSecond(age){
-	return age*365*24*60*60
+function ageSecond(year,months,days,hours){
+	var ay;
+	var am;
+	var ad;
+	var ah;
+	ay=year*12*30*24*60*60;
+am=months*30*24*60*60;
+ad=days*24*60*60;
+ah=hours*60*60;
+return ay+am+ad+ah;
 }
 
-// then i used this function to calculate my age 29 in seconds, ageSecond(29)=914544000 .
+// then i used this function to calculate my age 29 in seconds, ageSecond(29,5,17,18)=916509600
