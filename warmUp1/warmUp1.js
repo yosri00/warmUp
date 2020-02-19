@@ -4,6 +4,7 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 var LastName = Mimouni
@@ -33,3 +34,5 @@ function lag(age) {
 =======
 
 >>>>>>> 859ddc9823913e0aa13e586030e1ab80042e292f
+=======
+>>>>>>> 627dab1585ead45ae7fcf4a86803941763678810
